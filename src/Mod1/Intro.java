@@ -11,7 +11,7 @@ public class Intro {
     void display(){
         System.out.println("Hello! "+userName+", You are "+userAge+" years old."+
                 "You come from "+loc+" and your favourite food is "+food);
-    }
+    }//Constructor with parameters
     Intro(String name, int age){
         userName = name;
         userAge = age;
